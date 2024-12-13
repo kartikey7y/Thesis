@@ -53,7 +53,7 @@ def create_3d_from_depth_map(image_path, depth_map):
     o3d.visualization.draw_geometries([point_cloud])
 
 
-image_path = r'C:\Users\anups\OneDrive\Desktop\thesis\test.jpeg'
+image_path = r'C:\Users\anups\OneDrive\Desktop\thesis\test.jpg'
 depth_map = generate_depth_map(image_path)
 visualize_depth_map(depth_map)
 create_3d_from_depth_map(image_path, depth_map)
